@@ -7,4 +7,27 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Entity\" />
+    <None Remove="Service\" />
+    <None Remove="Service\Interfaces\" />
+    <None Remove="Service\Impl\" />
+    <None Remove="Repository\" />
+    <None Remove="Repository\Interfaces\" />
+    <None Remove="Repository\Impl\" />
+    <None Remove="Data_Transfer_Objects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\Interfaces\" />
+    <Folder Include="Service\Impl\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\Interfaces\" />
+    <Folder Include="Repository\Impl\" />
+    <Folder Include="Data_Transfer_Objects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>
